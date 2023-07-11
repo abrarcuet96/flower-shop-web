@@ -1,0 +1,348 @@
+/* to all sections */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Banner section Styles */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a90d2f1a;
+    height: 100vh;
+}
+.banner-text{
+    max-width: 50%;
+    margin: 150px;
+    padding-right: 100px;
+    
+
+}
+.banner-photo{
+    max-width: 50%;
+}
+.banner-img{
+    height: 100vh;
+    margin-right: 150px;
+}
+.banner-heading, .banner-caption, .btn{
+    margin-bottom:15px;
+}
+.banner-heading{
+    font-size: 40px;
+    color: #27374D;
+}
+.banner-caption{
+    font-weight: 600;
+    color: #071952;
+}
+.banner-caption-extra{
+    font-weight: 600;
+    color: black;
+    padding-bottom: 15px;
+}
+span{
+    color: orangered;
+}
+.btn{
+    color: wheat;
+    font-weight: 600;
+    background-color: orangered ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orchid;
+}
+
+/* Featured Flowers Section Styles */
+.feature-head{
+    
+    text-align: center;
+}
+.feature-title{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #27374D;
+}
+.feature-description{
+    margin: 0 300px;
+    margin-bottom: 25px;
+}
+.featured-flowers{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    
+}
+.img-2{
+    padding-bottom: 40px;
+}
+.photo{
+    border-radius: 50% 50% 0 0;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.featured-image{
+    
+    width: 70%;
+    height: max-content;
+}
+
+.feature-description{
+    font-weight: 600;
+    color: #071952;
+}
+.f-1{
+    background-color: #A7216226;
+}
+.f-2{
+    background-color: #0597A026;
+}
+.f-3{
+    background-color: #477D1126;
+}
+.flower-names{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-decoration:underline
+}
+.flower-name{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Extra Feature Section Styles  */
+.extra-feature{
+    background-color: #2727270D;
+    height: 35vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.extra{
+   text-align: center;
+}
+.extra-description{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Hot Deals Section Styles */
+.hot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a90d2f1a;
+    height: 60vh;
+}
+.hot-text{
+    max-width: 50%;
+    margin: 150px;
+    padding-right: 100px;
+    text-align: center;
+}
+.hot-photo{
+    max-width: 50%;
+}
+.hot-img{
+    height: 40vh;
+    margin-right: 250px;
+}
+.hot-heading, .hot-caption, .btn{
+    margin-bottom:15px;
+}
+.hot-heading{
+    font-size: 40px;
+    color: #27374D;
+}
+.hot-caption{
+    font-weight: 600;
+    color: #071952;
+}
+
+/* Social Section Styles  */
+.social-head{
+    text-align: center;
+}
+.social-title{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #27374D;
+}
+.social-description{
+    margin: 0 300px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: #071952;
+}
+.social-flowers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 15px;
+    margin-bottom: 70px;
+} 
+.image{
+    width: 100%;
+}
+
+/* My Section Styles */
+
+.my-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 95vh;
+    margin-bottom: 70px;
+    
+
+}
+.location{
+    max-width: 50%;
+    background-color: antiquewhite;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+   
+}
+.place-order{
+    max-width: 50%;
+    background-color: antiquewhite;
+    margin-left: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.city-location{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.location-head{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.city{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px gray;
+    width: 40%;
+    text-align: center;
+    background-color: azure;
+    padding: 10px;
+}
+.welcome-note{
+    color: red;
+    text-align: center;
+    padding: 70px;
+    font-size: 20px;
+}
+
+.btn-primary{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: orchid;
+}
+.order-head{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10vh;
+    
+}
+
+.order-head, .order-btn, .label-area{
+    margin-bottom: 20px;
+}
+
+
+/* Hot Deals Section Styles */
+.deal-container{
+    width: 80%;
+    margin: auto;
+    background-image: url(./images//Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.deal-text{
+    text-align: center;
+    
+}
+.btn-subscribe{
+    color: wheat;
+    font-weight: 600;
+    background-color: orangered ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-subscribe:hover{
+    background-color: orchid;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+}
+.deal-head{
+    font-size: 40px;
+}
+.deal-head, .deal-idea{
+    padding-bottom: 25px;
+}
+
+/* Footer Container Section Styles */
+.footer-container{
+    height: 40vh;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-head{
+    font-size: 50px;
+}
+.footer-head, .footer-text, .real-footer{
+    padding-bottom: 15px;
+}
+.footer-head,.footer-text, .real-footer{
+    color: white;
+}
